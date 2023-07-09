@@ -1,0 +1,18 @@
+from stack import *
+
+stack = Stack()
+print(stack.is_empty())
+stack.push(1)
+stack.push(2)
+stack.push(3)
+print(stack.top())
+stack.push(4)
+stack.push(5)
+print(stack.top())
+print(stack)
+print(stack.is_empty())
+stack.pop()
+stack.pop()
+stack.pop()
+print(stack.top())
+print(stack)
